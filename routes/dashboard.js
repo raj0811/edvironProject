@@ -111,7 +111,7 @@ router.put('/api/update/transaction/:transactionId/status/:reconcile',async(req,
 
 })
 
-
+// get transaction of all schools
 router.get('/api/get/disbursing',async(req,res)=>{
     
     try{
